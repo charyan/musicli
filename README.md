@@ -35,7 +35,7 @@ ollama serve
 ## Spotify
 You'll need a [developer account](https://developer.spotify.com/), and to [create an app](https://developer.spotify.com/dashboard/create) with the permissions `Web Playback SDK` and `Web API`.
 
-Add the `client_id`, `client_secret`, `redirect_uri` for your Spotify app at the top of the script in `musicli.py`.
+Add the `client_id`, `client_secret` and `redirect_uri` (for example, `http://127.0.0.1:8088`) for your Spotify app at the top of the script in `musicli.py`.
 
 
 ## MusiCLI
