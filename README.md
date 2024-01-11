@@ -2,6 +2,10 @@
 
 ![screenshot](screenshot.png)
 
+# How it works
+
+The script give the user input to `subprocess.Popen`. Afterwards, the input, return code and output are sent to the ollama server with a prompt to choose a song. Then, the song name is searched on Spotify through the api and the first result is played on the first available device (if --device-id is not set).
+
 ```
 usage: musicli.py [-h] [--list-devices] [--device-id DEVICE_ID]
 
@@ -11,7 +15,7 @@ options:
   -h, --help            show this help message and exit
   --list-devices        see what devices are connected to the Spotify account
   --device-id DEVICE_ID
-                        the device ID to play the song on
+                        the device ID to play the song on (optional)
 ```
 
 # Usage
