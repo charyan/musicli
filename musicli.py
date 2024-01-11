@@ -126,7 +126,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Play music on Spotify based on what's happening in your terminal")
 
     parser.add_argument('--list-devices', action='store_true', help='see what devices are connected to the Spotify account')
-    parser.add_argument('--device-id', metavar='DEVICE_ID', type=str, help='the device ID to play the song on')
+    parser.add_argument('--device-id', metavar='DEVICE_ID', type=str, help='the device ID to play the song on (optional)')
 
     args = parser.parse_args()
     
